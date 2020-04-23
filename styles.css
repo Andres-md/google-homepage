@@ -4,7 +4,8 @@ img{
     margin-right: auto;
     width: 25%;
     
-}    
+} 
+
 .search-box{
     color: darkgray;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,21 +13,14 @@ img{
     padding: 10px;
     border-style: solid;
     border-color: darkgray;
-    margin-left: 30%;
-    margin-right: 30%;
     border-width: 1px;
     border-radius: 30px;
-
-}
-.head-text{ text-align: right;
-    margin-right: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:rgba(0,0,0, 0.87);
+    width: 40%;
     font-size: 13px;
-    
 
 }
-button{
+
+    .button-1{
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
@@ -43,5 +37,25 @@ button{
     user-select: none;
 
 }
-    
+    li{ display: inline;
+        margin: 0 ;
+        padding: 0 ;
+        margin-right: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgba(0,0,0, 0.87);
+        font-size: small;
+
+    }
+footer{
+font-size: 14px;
+background-color: #f2f2f2;
+line-height: 20px;
+position: absolute;
+bottom: 0px;
+color: #5F6368;
+margin-left: -27px;
+width: 100%;
+min-width: 980px;
+}
+
 
